@@ -1,8 +1,9 @@
 import React from 'react';
 import {Navbar, NavItem} from 'react-materialize';
 import {Link} from 'react-router-dom';
+import {titleStyle} from '../../Styles';
 
-const brandText = <span className="black-text" style={{marginLeft: '50px'}}>Quinn Miller</span>;
+const brandText = <span className="black-text" style={titleStyle}>Quinn Miller</span>;
 const aboutMeLink = <Link className="black-text" to="/about-me">About Me</Link>;
 const myWorkLink = <Link className="black-text" to="/my-work">My Work</Link>;
 
