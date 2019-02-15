@@ -9,6 +9,11 @@
 _As of Feb 15th 2019_
 This project will be a website that shows off the work that I've done as a junior web developer. I will use React to build this app from the ground up. Starting with a blueprint of how this app will be structured, which i will include in the readme. Eventually it will have a few pictures of me, a bio section, and showcase the projects that i am most proud of.
 
+## Component Tree
+
+React uses a system of components to keep each part of an application compartmentalized. This lets the developer re-use components for other parts of the application, or other applications all together. At the very least its an amazing organizational tool. Here is my blueprint:
+
+![Image of component tree](./componentTree.png)
 
 ## Setup/Installation Requirements
 
