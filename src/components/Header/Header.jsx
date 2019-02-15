@@ -1,9 +1,9 @@
 import React from 'react';
 import {Navbar, NavItem} from 'react-materialize';
 
-const brandText = <span className="black-text" style={{marginLeft: '50px'}}>Quinn Miller</span>
-const aboutMeLink = <span className="black-text">About Me</span>
-const myWorkLink = <span className="black-text">My Work</span>
+const brandText = <span className="black-text" style={{marginLeft: '50px'}}>Quinn Miller</span>;
+const aboutMeLink = <span className="black-text">About Me</span>;
+const myWorkLink = <span className="black-text">My Work</span>;
 
 
 function Header(){
