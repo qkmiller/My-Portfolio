@@ -7,6 +7,7 @@
 ## Description
 
 _As of Feb 15th 2019_
+
 This project will be a website that shows off the work that I've done as a junior web developer. I will use React to build this app from the ground up. Starting with a blueprint of how this app will be structured, which i will include in the readme. Eventually it will have a few pictures of me, a bio section, and showcase the projects that i am most proud of.
 
 ## Component Tree
@@ -18,7 +19,8 @@ React uses a system of components to keep each part of an application compartmen
 ## Setup/Installation Requirements
 
 _As of Feb 15th 2019_
-_There isn't anything here yet other than an initialized React environment_
+
+There isn't anything here yet other than an initialized React environment
 
 _In the future_
 
@@ -32,7 +34,8 @@ _In the future_
 
 ## Known Issues and Notes.
 
-_As of Feb 14th 2019_
+_As of Feb 15th 2019_
+
 * This project is currently empty
 
 ## Support and contact details
