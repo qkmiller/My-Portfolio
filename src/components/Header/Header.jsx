@@ -1,13 +1,17 @@
 import React from 'react';
 import {Navbar, NavItem} from 'react-materialize';
-import {navStyle} from '../../Styles';
+
+const brandText = <span className="black-text" style={{marginLeft: '50px'}}>Quinn Miller</span>
+const aboutMeLink = <span className="black-text">About Me</span>
+const myWorkLink = <span className="black-text">My Work</span>
+
 
 function Header(){
   return (
     <div>
-      <Navbar className='blue-grey lightent-2' brand='Quinn Miller' right>
-        <NavItem onClick={() => console.log('test click')}>Link 1</NavItem>
-        <NavItem onClick={() => console.log('test click')}>Link 2</NavItem>
+      <Navbar className='black-text white' brand={brandText} right>
+        <NavItem onClick={() => console.log('test click')}>{aboutMeLink}</NavItem>
+        <NavItem onClick={() => console.log('test click')}>{myWorkLink}</NavItem>
       </Navbar>
     </div>
   );
