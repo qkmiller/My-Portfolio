@@ -66,7 +66,7 @@ Leave a comment or contact me at millerquinn66@gmail.com
 
 ### License
 
-*Copyright (c) 2019 Quinn Miller //
+_Copyright (c) 2019 Quinn Miller
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
