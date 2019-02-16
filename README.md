@@ -12,7 +12,7 @@ This project will be a website that shows off the work that I've done as a junio
 
 ## Component Tree
 
-React uses a system of components to keep each part of an application compartmentalized. This lets the developer re-use components for other parts of the application, or other applications all together. At the very least its an amazing organizational tool. Here is a layout of the components in my application:
+React uses a system of components to keep each part of an application compartmentalized. This allows the developer to re-use these components in current and/or future applications. At the very least, it's an amazing organizational tool. The bigger a project gets, the more vital this system becomes. Here's how the components in my application are structured:
 
 ![Image of component tree](./componentTree.png)
 
