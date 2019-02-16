@@ -8,35 +8,38 @@
 
 _As of Feb 15th 2019_
 
-This project will be a website that shows off the work that I've done as a junior web developer. I will use React to build this app from the ground up. Starting with a blueprint of how this app will be structured, which i will include in the readme. Eventually it will have a few pictures of me, a bio section, and showcase the projects that i am most proud of.
+This project will be a website that shows off the work that I've done as a junior web developer. I will use React to build this app from the ground up. Starting with a blueprint of how this app will be structured, which I will include in the readme. Eventually it will have a few pictures of me, an 'about me' section, and showcase the projects that I am most proud of.
 
 ## Component Tree
 
-React uses a system of components to keep each part of an application compartmentalized. This lets the developer re-use components for other parts of the application, or other applications all together. At the very least its an amazing organizational tool. Here is my blueprint:
+React uses a system of components to keep each part of an application compartmentalized. This lets the developer re-use components for other parts of the application, or other applications all together. At the very least its an amazing organizational tool. Here is a layout of the components in my application:
 
 ![Image of component tree](./componentTree.png)
 
 ## Setup/Installation Requirements
 
 _As of Feb 15th 2019_
+_it has not been deployed yet. If you would like to see this project in action, you will have to follow these steps._
 
-There isn't anything here yet other than an initialized React environment
+1. You must have Node package manager installed on your machine.
+2. Clone or download the project.
+3. Open a terminal window (if you are on Windows you can use Command Prompt or CMDPrompt).
+4. Using the terminal, navigate to the project folder and type 'npm install' without quotations. Node should install the necessary dependencies.
+5. Type 'npm run start' without quotations. The application should build with no errors (fingers crossed).
+6. In your browser's address bar (I've only used Chrome), type 'http://localhost:8080' without quotations.
 
-_In the future_
-
-* If you would like to edit, view or copy the contents of these files, i recommend using a text editor like Atom or Sublime.
-* To see this project in action:
-1. You must have Node.js installed on your machine.
-2. You must clone this project to your machine.
-3. In a terminal window, navigate to the project's root folder (where you see package.json) and type 'npm install'.
-4. Once the dependencies are installed, type 'npm run start'
-5. You should now see the project page in google chrome. I haven't tested this with other browsers.
+If the above steps worked you should now see my portfolio in its current state.
 
 ## Known Issues and Notes.
 
 _As of Feb 15th 2019_
 
-* This project is currently empty
+* There are probably still many grammatical errors.
+* The 'My Work' is basically empty.
+* The Homepage has a place holder where i plan on listing and describing some of my skills.
+* The tabs on the nav bar are weird. If you hover over both the 'About Me' and 'My Work' tabs, you will see there its actually doubled up for some reason. If you click on the outer edges, they will take you back to the homepage.
+* When the navbar collapses, a hamburger icon is supposed to show up. That icon is currently invisible. I just need to make it black instead of white.
+* The giant picture that you are greeted with is just a placeholder. It's from Materialize's parallax example.
 
 ## Support and contact details
 
@@ -49,15 +52,17 @@ Leave a comment or contact me at millerquinn66@gmail.com
 
 * Javascript
 * React
+* Materialize
+* NodeJS
+* Webpack
 * CSS
 * HTML
 * Git
-* BASH
 * Lint
 * Atom
-* Github
 * Markdown
-* See package.json to see all dependencies
+* draw.io to make the component tree
+* See package.json for a full list dependencies
 
 ### License
 
