@@ -13,11 +13,15 @@ function App(){
     <div>
       <Header />
       <TopImage />
-      <Switch>
-        <Route exact path='/' component={Home} />
-        <Route exact path='/about-me' component={AboutMe} />
-        <Route exact path='/my-work' component={MyWork} />
-      </Switch>
+      <div className='section white'>
+        <div className='row container'>
+          <Switch>
+            <Route exact path='/' component={Home} />
+            <Route exact path='/about-me' component={AboutMe} />
+            <Route exact path='/my-work' component={MyWork} />
+          </Switch>
+        </div>
+      </div>
     </div>
   );
 }

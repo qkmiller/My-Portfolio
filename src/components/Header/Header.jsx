@@ -1,21 +1,20 @@
 import React from 'react';
 import {Navbar, NavItem} from 'react-materialize';
-import {Link} from 'react-router-dom';
-import {titleStyle} from '../../Styles';
+import {styleNavItemText, styleHeaderTitle} from '../../Styles';
 
-const brandText = <span className="black-text" style={titleStyle}>Quinn Miller</span>;
-const aboutMeLink = <Link className="black-text" to="/about-me">About Me</Link>;
-const myWorkLink = <Link className="black-text" to="/my-work">My Work</Link>;
+
 
 function Header(){
+
   return (
     <div>
-      <Navbar className='black-text white' brand={brandText} right>
-        <NavItem>{aboutMeLink}</NavItem>
-        <NavItem>{myWorkLink}</NavItem>
+      <Navbar href='/#/' className='black-text white' brand={styleHeaderTitle('Quinn Miller')} right>
+        <NavItem href="/#/about-me">{styleNavItemText('About Me')}</NavItem>
+        <NavItem href="/#/my-work">{styleNavItemText('My Work')}</NavItem>
       </Navbar>
     </div>
   );
+
 }
 
 export default Header;

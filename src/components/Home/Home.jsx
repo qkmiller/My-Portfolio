@@ -5,12 +5,8 @@ import Skills from '../Skills/Skills';
 function Home(){
   return (
     <div>
-      <div className="section white">
-        <div className="row container">
-          <Title />
-          <Skills />
-        </div>
-      </div>
+      <Title />
+      <Skills />
     </div>
   );
 }

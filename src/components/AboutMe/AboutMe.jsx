@@ -3,7 +3,7 @@ import Title from '../Title/Title';
 
 function AboutMe(){
   return (
-    <div className="row container">
+    <div>
       <Title />
       <hr />
       <p><span style={{marginLeft: '10px'}}>Thanks </span> for taking the time to visit my portfolio. I am currently a student at Epicodus, a coding bootcamp in Portland, Oregon. My education at Epicodus has given me great core programming fundamentals, and experience with cutting edge frameworks. I decided to attend Epicodus because of my passion for technology and interest in open-source development. I started by familiarizing myself with the command line and Git, while making web-pages using html and CSS. Later, I learned Javascript, then Ruby along with Rails and postgreSQL. I have no doubt about my ability to learn any new technology the programming world has to offer.</p>
