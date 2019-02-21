@@ -1,8 +1,12 @@
+import React from 'react';
 
-const titleStyle = {
-  marginLeft: '50px',
-  textAlign: 'center'
+const styleNavItemText = function(text) {
+  return <span className="black-text">{text}</span>;
+};
+const styleHeaderTitle = function(text) {
+  return <span className="black-text" style={{marginLeft: '50px', textAlign: 'center'}}>{text}</span>;
 };
 export {
-  titleStyle
+  styleNavItemText,
+  styleHeaderTitle
 };
