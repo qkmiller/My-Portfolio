@@ -19,8 +19,11 @@
         "react/jsx-uses-react": 2,
         "react/jsx-no-duplicate-props": 2,
         "react/jsx-no-undef": 2,
-        "react/no-multi-comp": 2,
         "react/jsx-key": 2,
+        "react/no-multi-comp": [
+            2, 
+            { "ignoreStateless": true }
+        ],
         "react/jsx-indent-props": [
             "error",
             2
