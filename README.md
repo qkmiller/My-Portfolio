@@ -14,9 +14,9 @@ This project will be a website that shows off the work that I've done as a junio
 
 React uses a system of components to keep each part of an application compartmentalized. This allows the developer to re-use these components in current and/or future applications. At the very least, it's an amazing organizational system. The bigger a project gets, the more vital this system becomes.
 
-Some of these components contain data, and manage the 'state' of that data. This data can range from content that the end-user can change, to a value dictating whether something is hidden or shown. These are called stateful components. Components that do not have state are refered to as being 'pure' because they either exist or they don't. 
+Some components contain data, and manage the 'state' of that data. This data can range from content that the end-user can change, to a value dictating whether something is hidden or shown. These are called stateful components. Components that do not have state are refered to as being 'pure' because they either exist or they don't. 
 
-However, pure components can be greatly manipulated by their stateful parent component. For example: A stateful component might contain a list. For each item on the list, a pure component is generated containing information about the item. When the list is updated React will see the change, then re-render _only the parts of the DOM that need changing_. This is called 'reconciliation' and its what makes React special.
+However, pure components can be greatly manipulated by their stateful parent component. For example: A stateful component might contain a list. For each item on the list, a pure component is generated containing that item's information. When the list is updated React will see the change, then re-render _only the parts of the DOM that need changing_. This is called 'reconciliation' and its what makes React special.
 
 Here's how the components in my application are structured:
 
