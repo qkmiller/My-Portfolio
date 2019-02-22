@@ -4,21 +4,27 @@
 
 #### By Quinn Miller
 
-## Description
+_Updated Feb 22nd 2019_
 
-_As of Feb 15th 2019_
+## Description
 
 This project will be a website that shows off the work that I've done as a junior web developer. I will use React to build this app from the ground up. Starting with a blueprint of how this app will be structured, which I will include in the readme. Eventually it will have a few pictures of me, an 'about me' section, and showcase the projects that I am most proud of.
 
-## Component Tree
+## Components
 
-React uses a system of components to keep each part of an application compartmentalized. This allows the developer to re-use these components in current and/or future applications. At the very least, it's an amazing organizational tool. The bigger a project gets, the more vital this system becomes. Here's how the components in my application are structured:
+React uses a system of components to keep each part of an application compartmentalized. This allows the developer to re-use these components in current and/or future applications. At the very least, it's an amazing organizational system. The bigger a project gets, the more vital this system becomes.
+
+Some of these components contain data, and manage the 'state' of that data. This data can range from content that the end-user can change, to a value dictating whether something is hidden or shown. These are called stateful components. Components that do not have state are refered to as being 'pure' because they either exist or they don't. 
+
+However, pure components can be greatly manipulated by their stateful parent component. For example: A stateful component might contain a list. For each item on the list, a pure component is generated containing information about the item. When the list is updated React will see the change, then re-render _only the parts of the DOM that need changing_. This is called 'reconciliation' and its what makes React special.
+
+Here's how the components in my application are structured:
 
 ![Image of component tree](./ComponentTree.png)
 
 ## Setup/Installation Requirements
 
-_As of Feb 15th 2019_
+_As of Feb 22nd 2019_
 _it has not been deployed yet. If you would like to see this project in action, you will have to follow these steps._
 
 1. You must have Node package manager installed on your machine.
@@ -31,8 +37,6 @@ _it has not been deployed yet. If you would like to see this project in action, 
 If the above steps worked you should now see my portfolio in its current state.
 
 ## Known Issues and Notes.
-
-_As of Feb 15th 2019_
 
 * There are probably still many grammatical errors.
 * The 'My Work' is basically empty.
