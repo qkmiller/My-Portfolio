@@ -3,7 +3,6 @@ import {Collapsible, CollapsibleItem} from 'react-materialize';
 import PropTypes from 'prop-types';
 
 function SkillList(props){
-  console.log(props);
   return (
     <div>
       <h4>Skills</h4>
@@ -17,7 +16,7 @@ function SkillList(props){
     </div>
   );
 }
-SkillList.PropTypes = {
+SkillList.propTypes = {
   skills: PropTypes.arrayOf(PropTypes.shape({
     name: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired
