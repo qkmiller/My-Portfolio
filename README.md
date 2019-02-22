@@ -14,7 +14,7 @@ This project will be a website that shows off the work that I've done as a junio
 
 React uses a system of components to keep each part of an application compartmentalized. This allows the developer to re-use these components in current and/or future applications. At the very least, it's an amazing organizational tool. The bigger a project gets, the more vital this system becomes. Here's how the components in my application are structured:
 
-![Image of component tree](./componentTree.png)
+![Image of component tree](./ComponentTree.png)
 
 ## Setup/Installation Requirements
 
