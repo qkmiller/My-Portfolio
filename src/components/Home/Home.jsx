@@ -1,13 +1,13 @@
 import React from 'react';
 import Title from '../Title/Title';
-import SkillList from '../Skills/SkillList';
+import Skills from '../Skills/Skills';
 import MySkills from '../../MySkills.json';
 
 function Home(){
   return (
     <div>
       <Title />
-      <SkillList skills={MySkills}/>
+      <Skills skills={MySkills}/>
     </div>
   );
 }

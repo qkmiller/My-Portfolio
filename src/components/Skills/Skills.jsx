@@ -2,7 +2,7 @@ import React from 'react';
 import {Collapsible, CollapsibleItem} from 'react-materialize';
 import PropTypes from 'prop-types';
 
-function SkillList(props){
+function Skills(props){
   return (
     <div>
       <Collapsible popout defaultActiveKey={1}>
@@ -19,7 +19,7 @@ function SkillList(props){
     </div>
   );
 }
-SkillList.propTypes = {
+Skills.propTypes = {
   skills: PropTypes.arrayOf(PropTypes.shape({
     name: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired
@@ -27,4 +27,4 @@ SkillList.propTypes = {
 };
 
 
-export default SkillList;
+export default Skills;
