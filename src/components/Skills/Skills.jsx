@@ -2,13 +2,12 @@ import React from 'react';
 import {Collapsible, CollapsibleItem} from 'react-materialize';
 import PropTypes from 'prop-types';
 
-
 function Skills(props){
   return (
-    <CollapsibleItem onSelect={()=>{}} header="Skills" icon='filter_drama'>
+    <CollapsibleItem onSelect={()=>{}} header='Skills'>
       <Collapsible accordion defaultActiveKey={1}>
         {props.skills.map((skill, index) => 
-          <CollapsibleItem key={index} header={skill.name} icon='filter_drama'>
+          <CollapsibleItem key={index} header={skill.name}>
             {skill.description}
           </CollapsibleItem>
         )}

@@ -8,7 +8,7 @@ function Home(){
   return (
     <div>
       <Title />
-      <Collapsible popout defaultActiveKey={1}>
+      <Collapsible popout defaultActiveKey={1} style={{textAlign: 'center'}}>
         <Skills skills={MySkills}/> 
       </Collapsible>
     </div>
