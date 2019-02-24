@@ -1,8 +1,9 @@
 import React from 'react';
 import Title from '../Title/Title';
 import Skills from '../Skills/Skills';
+import AboutMe from '../AboutMe/AboutMe';
 import MySkills from '../../MySkills.json';
-import {Collapsible} from 'react-materialize';
+import {Collapsible, CollapsibleItem} from 'react-materialize';
 
 function Home(){
   return (
@@ -10,6 +11,11 @@ function Home(){
       <Title />
       <Collapsible popout defaultActiveKey={1} style={{textAlign: 'center'}}>
         <Skills skills={MySkills}/> 
+      </Collapsible>
+      <Collapsible popout defaultActiveKey={1} style={{textAlign: 'center'}}>
+        <CollapsibleItem header='About Me'>
+          <AboutMe />
+        </CollapsibleItem>
       </Collapsible>
     </div>
   );
