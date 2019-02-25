@@ -10,19 +10,9 @@ function Home(){
   return (
     <div>
       <Title />
-      <Collapsible popout defaultActiveKey={1} style={{textAlign: 'center'}}>
-        <Skills skills={MySkills}/> 
-      </Collapsible>
-      <Collapsible popout defaultActiveKey={1} style={{textAlign: 'center'}}>
-        <CollapsibleItem header='About Me'>
-          <AboutMe />
-        </CollapsibleItem>
-      </Collapsible>
-      <Collapsible popout defaultActiveKey={1} style={{textAlign: 'center'}}>
-        <CollapsibleItem header='My Work'>
-          <MyWork />
-        </CollapsibleItem>
-      </Collapsible>
+      <Skills skills={MySkills}/>
+      <AboutMe />
+      <MyWork />
     </div>
   );
 }
