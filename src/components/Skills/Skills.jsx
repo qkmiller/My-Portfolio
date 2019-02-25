@@ -1,12 +1,11 @@
 import React from 'react';
 import {Collapsible, CollapsibleItem} from 'react-materialize';
-
 import PropTypes from 'prop-types';
 
 function Skills(props){
   return (
     <div>
-      <h5>My skills as a programmer</h5>
+      <h5>{props.header}</h5>
       <Collapsible accordion>
         {props.skills.map((skill, index) => 
           <CollapsibleItem key={index} header={skill.name}>
@@ -14,11 +13,11 @@ function Skills(props){
           </CollapsibleItem>
         )}
       </Collapsible>
-
     </div>
   );
 }
 Skills.propTypes = {
+  header: PropTypes.string,
   skills: PropTypes.arrayOf(PropTypes.shape({
     name: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired
