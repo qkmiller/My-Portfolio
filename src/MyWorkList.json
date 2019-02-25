@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Wikipedia Races",
+        "description": "A single-page app that uses the Wikipedia API, Angular, and Jquery. Games are kept track of using Firebase."
+    },
+
+    {
+        "name": "Battleship",
+        "description": "A version of Battleship, made only with Ruby-on-Rails. It Shows knowledge of dynamic  routing,  SQL language, and how MVCs like Rails."
+    },
+
+    {
+        "name": "The Word Definer",
+        "description": "An application that allows kids to add words to a list, then add their own definitions to those words. Users can add multiple definitions and remove words all together. This app implements a fully functioning swear filter."
+    }
+]
