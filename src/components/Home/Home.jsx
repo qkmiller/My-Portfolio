@@ -1,12 +1,12 @@
 import React from 'react';
 import Title from '../Title/Title';
-import TopImage from '../TopImage/TopImage';
 import Skills from '../Skills/Skills';
 import AboutMe from '../AboutMe/AboutMe';
 import MySkillsList from '../../MySkillsList.json';
 import MyWorkList from '../../MyWorkList.json';
 import MyWork from '../MyWork/MyWork';
 import {Collapsible, CollapsibleItem} from 'react-materialize';
+import {Parallax} from 'react-materialize';
 
 function Home(){
   return (
@@ -14,15 +14,15 @@ function Home(){
       <div id='title' className='row container'>
       <Title />
       </div>
-      <TopImage />
+      <Parallax imageSrc="http://materializecss.com/images/parallax1.jpg"/>
       <div id='skills' className='row container'>
       <Skills skills={MySkillsList} header='My Programming Skills'/>
       </div>
-      <TopImage />
+      <Parallax imageSrc="http://materializecss.com/images/parallax1.jpg"/>
       <div id='aboutme' className='row container'>
       <AboutMe />
       </div>
-      <TopImage />
+      <Parallax imageSrc="http://materializecss.com/images/parallax1.jpg"/>
       <div id='mywork' className='row container'>
       <MyWork projects={MyWorkList} header='Recent projects'/>
       </div>
