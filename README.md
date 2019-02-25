@@ -4,11 +4,11 @@
 
 #### By Quinn Miller
 
-_Updated Feb 22nd 2019_
+_Updated Feb 25th 2019_
 
 ## Description
 
-This project will be a website that shows off the work that I've done as a junior web developer. I will use React to build this app from the ground up. Starting with a blueprint of how this app will be structured, which I will include in the readme. Eventually it will have a few pictures of me, an 'about me' section, and showcase the projects that I am most proud of.
+This project will be a website that shows off the work that I've done as a junior web developer. I will use React to build this app from the ground up. Starting with a blueprint of how this app will be structured, which I will include in this readme. Eventually it will have a few pictures of me, an 'about me' section, and a section that showcases the projects I'm most proud of.
 
 ## Components
 
@@ -16,7 +16,7 @@ React uses a system of components to keep each part of an application compartmen
 
 Some components contain data, and manage the 'state' of that data. This data can range from content that the end-user can change, to a value dictating whether something is hidden or shown. These are called stateful components. Components that do not have state are refered to as being 'pure' because they either exist or they don't. 
 
-However, pure components can be greatly manipulated by their stateful parent component. For example: A stateful component might contain a list. For each item on the list, a pure component is generated containing that item's information. When the list is updated React will see the change, then re-render _only the parts of the DOM that need changing_. This is called 'reconciliation' and its what makes React special.
+However, pure components can be greatly manipulated by their stateful parent component. For example: A stateful component might contain a list. For each item on the list, a pure component is generated containing that item's information. When the list is updated React will see the change, then re-render _only the parts of the DOM that are different_. This is called 'reconciliation' and it's what makes React special.
 
 Here's how the components in my application are structured:
 
@@ -24,7 +24,6 @@ Here's how the components in my application are structured:
 
 ## Setup/Installation Requirements
 
-_As of Feb 22nd 2019_
 _it has not been deployed yet. If you would like to see this project in action, you will have to follow these steps._
 
 1. You must have Node package manager installed on your machine.
@@ -39,11 +38,9 @@ If the above steps worked you should now see my portfolio in its current state.
 ## Known Issues and Notes.
 
 * There are probably still many grammatical errors.
-* The 'My Work' is basically empty.
-* The Homepage has a place holder where i plan on listing and describing some of my skills.
-* The tabs on the nav bar are weird. If you hover over both the 'About Me' and 'My Work' tabs, you will see there its actually doubled up for some reason. If you click on the outer edges, they will take you back to the homepage.
+* I would like to use Cards from the react-materialize library, but they don't work. All the other components that i've used from that library seem to work just fine. I've posted a question on stack-overflow and also in the react-materialize gitter channel (which is kindof dead).
 * When the navbar collapses, a hamburger icon is supposed to show up. That icon is currently invisible. I just need to make it black instead of white.
-* The giant picture that you are greeted with is just a placeholder. It's from Materialize's parallax example.
+* The parallax pictures are just placeholders. It's from Materialize's parallax example.
 
 ## Support and contact details
 
