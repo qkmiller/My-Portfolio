@@ -14,7 +14,7 @@ function CurrentlyWorkingOn(props){
 
   return (
     <div>
-      <h5 style={titleFont}>'What am i currently learning?'</h5>
+      <h5 style={titleFont}>What am i currently learning?</h5>
       <p>Right now i am learning the basics of React. React is a Javascript library that allows the user to easily make responsive web applications. This webpage is made out of React components. React uses Javascrip to generate HTML elements on-the-fly. "State" is a property that manages data for parts of the application, and it allows data to be passed from component to component. Heres an example:</p>
       <p>Add some text here:</p>
       <form onSubmit={handleStateTest}>
