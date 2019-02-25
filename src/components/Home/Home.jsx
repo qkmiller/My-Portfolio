@@ -55,15 +55,18 @@ class Home extends React.Component {
 
         
         <Parallax imageSrc="http://materializecss.com/images/parallax1.jpg"/>
-        <div id='skills' className='row container' style={{width: '800px'}}>
+        <div id='skills' style={{marginTop: '-65px', position: 'absolute'}}></div>
+        <div className='row container' style={{width: '800px'}}>
           <Skills skills={MySkillsList} header='My Programming Skills'/>
         </div>
         <Parallax imageSrc="http://materializecss.com/images/parallax1.jpg"/>
-        <div id='aboutme' className='row container' style={{width: '800px'}}>
+        <div id='about' style={{marginTop: '-65px', position: 'absolute'}}></div>
+        <div className='row container' style={{width: '800px'}}>
           <AboutMe />
         </div>
         <Parallax imageSrc="http://materializecss.com/images/parallax1.jpg"/>
-        <div id='mywork' className='row container' style={{width: '800px'}}>
+        <div id='mywork' style={{marginTop: '-65px', position: 'absolute'}}></div>
+        <div className='row container' style={{width: '800px'}}>
           <MyWork projects={MyWorkList} header='Recent projects'/>
         </div>
         <Parallax imageSrc="http://materializecss.com/images/parallax1.jpg"/>
