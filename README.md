@@ -20,7 +20,7 @@ However, pure components can be greatly manipulated by their stateful parent com
 
 Here's how the components in my application are structured:
 
-![Image of component tree](./ComponentTree.png)
+![Image of component tree](./src/assets/images/ComponentTree.png)
 
 ## Setup/Installation Requirements
 
