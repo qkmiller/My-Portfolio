@@ -8,10 +8,7 @@ function App(){
   return (
     <div>
       <Header />
-      <TopImage />
-      <div className='row container'>
-        <Home />
-      </div>
+      <Home />
     </div>
   );
 }
