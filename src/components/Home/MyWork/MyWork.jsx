@@ -9,7 +9,8 @@ function MyWork(props){
       <Collapsible accordion>
         {props.projects.map((project, index) => 
           <CollapsibleItem key={index} header={project.name}>
-            {project.description}
+            <p>{project.description}</p>
+            {project.link ? <a href={project.link}>Deployed here</a>: null}
           </CollapsibleItem>
         )}
       </Collapsible>
@@ -20,7 +21,8 @@ MyWork.propTypes = {
   header: PropTypes.string,
   projects: PropTypes.arrayOf(PropTypes.shape({
     name: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired
+    description: PropTypes.string.isRequired,
+    link: PropTypes.string
   })).isRequired
 };
 export default MyWork;
