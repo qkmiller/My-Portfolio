@@ -38,7 +38,8 @@ If the above steps worked you should now see my portfolio in its current state.
 ## Known Issues and Notes.
 
 * There are probably still many grammatical errors.
-* I would like to use Cards from the react-materialize library, but they don't work. All the other components that i've used from that library seem to work just fine. I've posted a question on stack-overflow and also in the react-materialize gitter channel (which is kindof dead).
+* I plan on putting icons on the collapsibles, to let the user know they can click on them.
+* Furthermore i woiuld like to replace the collapsibles with Cards from the react-materialize library, but they don't work. All the other components that i've used from that library seem to work just fine. I've posted a question on stack-overflow and also in the react-materialize gitter channel (which is kindof dead). Or I'm just doing it wrong.
 * When the navbar collapses, a hamburger icon is supposed to show up. That icon is currently invisible. I just need to make it black instead of white.
 * The parallax pictures are just placeholders. It's from Materialize's parallax example.
 
