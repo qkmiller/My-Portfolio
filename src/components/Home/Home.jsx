@@ -8,13 +8,15 @@ import MyWork from './MyWork/MyWork';
 import CurrentlyWorkingOn from './CurrentlyWorkingOn/CurrentlyWorkingOn'
 import {Collapsible, CollapsibleItem} from 'react-materialize';
 import {Parallax} from 'react-materialize';
+import ComponentTree from '../../assets/images/ComponentTree.png'
 
 class Home extends React.Component {
   constructor() {
     super();
     this.state = {
       userText: null,
-      test: false
+      test: false,
+      componentTree: false
     };
     this.handleStateTest = this.handleStateTest.bind(this);
   }
@@ -23,8 +25,12 @@ class Home extends React.Component {
     this.setState({userText: userInput, test: true});
   }
 
+  showComponentTree() {
+    this.setState({componentTree: true})
+  }
+
   resetState() {
-    this.setState({userText: null, test: false})
+    this.setState({userText: null, test: false, componentTree: false})
   }
 
   render() {
@@ -37,7 +43,12 @@ class Home extends React.Component {
               <h1>{this.state.userText}</h1>
               <p>This is what you typed into the form at the bottom of the page.</p>
               <p>This text resides in the 'state' of a component in this application. This component encapsulates many other components, including the one you entered your text into. Since it's a 'child' of the stateful component, we can pass it a function that enables it to change the state. For a diagram of this unidrectional data-flow, check out the readme for this portfolio on my github.</p>
+              <button onClick={()=>{this.showComponentTree()}}>Show Diagram</button>
+
               <button onClick={()=>{this.resetState()}}>Reset</button>
+              {this.state.componentTree ?
+                <img style={{marginLeft: '-200px'}} src={ComponentTree}/>: null
+              }
             </div>: null
           }
         </div>
