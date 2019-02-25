@@ -1,11 +1,12 @@
 import React from 'react';
 import {Collapsible, CollapsibleItem} from 'react-materialize';
 import PropTypes from 'prop-types';
+import {titleFont} from '../../../Styles';
 
 function Skills(props){
   return (
     <div>
-      <h5>{props.header}</h5>
+      <h5 style={titleFont}>{props.header}</h5>
       <Collapsible accordion>
         {props.skills.map((skill, index) => 
           <CollapsibleItem key={index} header={skill.name}>

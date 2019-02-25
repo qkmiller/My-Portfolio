@@ -1,11 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {Collapsible, CollapsibleItem} from 'react-materialize';
+import {titleFont} from '../../../Styles';
 
 function MyWork(props){
   return (
     <div>
-      <h5>{props.header}</h5>
+      <h5 style={titleFont}>{props.header}</h5>
       <Collapsible accordion>
         {props.projects.map((project, index) => 
           <CollapsibleItem key={index} header={project.name}>
