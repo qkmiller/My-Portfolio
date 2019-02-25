@@ -19,8 +19,9 @@ function Header(){
   return (
     <div>
       <Navbar fixed href='/#/' className='black-text white' brand={icon(quinn)} right>
-        <NavItem href="#aboutme">{styleNavItemText('About Me')}</NavItem>
-        <NavItem href="#mywork">{styleNavItemText('My Work')}</NavItem>
+        <NavItem href="#skills">{styleNavItemText('Skills')}</NavItem>
+        <NavItem href="#about">{styleNavItemText('About')}</NavItem>
+        <NavItem href="#mywork">{styleNavItemText('Projects')}</NavItem>
       </Navbar>
     </div>
   );
