@@ -1,10 +1,10 @@
 import React from 'react';
-import Title from '../Title/Title';
-import Skills from '../Skills/Skills';
-import AboutMe from '../AboutMe/AboutMe';
+import Title from './Title/Title';
+import Skills from './Skills/Skills';
+import AboutMe from './AboutMe/AboutMe';
 import MySkillsList from '../../MySkillsList.json';
 import MyWorkList from '../../MyWorkList.json';
-import MyWork from '../MyWork/MyWork';
+import MyWork from './MyWork/MyWork';
 import {Collapsible, CollapsibleItem} from 'react-materialize';
 import {Parallax} from 'react-materialize';
 
