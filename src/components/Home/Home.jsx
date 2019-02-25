@@ -47,7 +47,7 @@ class Home extends React.Component {
 
               <button onClick={()=>{this.resetState()}}>Reset</button>
               {this.state.componentTree ?
-                <img style={{marginLeft: '-200px'}} src={ComponentTree}/>: null
+                <img style={{marginLeft: '-150px', marginTop: '20px'}} src={ComponentTree}/>: null
               }
             </div>: null
           }
