@@ -6,7 +6,11 @@ const styleNavItemText = function(text) {
 const styleHeaderTitle = function(text) {
   return <span className="black-text" style={{marginLeft: '50px', textAlign: 'center'}}>{text}</span>;
 };
+const titleFont = {
+  fontFamily: '"Krona One", sans-sarif'
+}
 export {
   styleNavItemText,
-  styleHeaderTitle
+  styleHeaderTitle,
+  titleFont
 };
